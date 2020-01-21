@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Екатерина Захарова](https://up.htmlacademy.ru/htmlcss/27/user/1319881).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Кошара](https://htmlacademy.ru/profile/rednaxxxela).
 
 ---
 
