@@ -1,0 +1,35 @@
+body {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.logo {
+  display: inline-block;
+
+  padding: 10px 55px 5px;
+  
+  background-color: #ee3643;
+  box-shadow: 0 5px 0 0 #b52933;  
+}
+
+.logo:hover {
+  background-color: #ca2c37;
+}
+
+.logo:active {
+  background-color: #ba2732;
+}
+
+.logo img {
+  width: 109px;
+  height: 19px;
+}
+
+.page-header__top {
+  background-color: #293449;
+}
