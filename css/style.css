@@ -215,28 +215,28 @@ body {
 
 .promo-item.promo-item--materials {
     background-color: #ffbf47;
-    background-image: url("img/icon-1.svg");
+    background-image: url("../img/icon-1.svg");
 
 }
 
 .promo-item.promo-item--instrument {
     background-color: #3bbce3;
-    background-image: url("img/icon-2.svg");
+    background-image: url("../img/icon-2.svg");
 }
 
 .promo-item.promo-item--equipment {
     background-color: #dc91d8;
-    background-image: url("img/icon-3.svg");
+    background-image: url("../img/icon-3.svg");
 }
 
 .promo-item.promo-item--offers {
     background-color: #8ed78f;
-    background-image: url("img/icon-4.svg");
+    background-image: url("../img/icon-4.svg");
 }
 
 .promo-item.promo-item--delivery {
     background-color: #ffc047;
-    background-image: url("img/icon-5.svg");
+    background-image: url("../img/icon-5.svg");
 }
 
 .promo-item__title {
@@ -283,11 +283,11 @@ body {
 }
 
 .background-card__image.background-card__image--perforator {
-    background-image: url("img/perforators.jpg");
+    background-image: url("../img/perforators.jpg");
 }
 
 .background-card__image.background-card__image--drill {
-    background-image: url("img/drels.jpg");
+    background-image: url("../img/drels.jpg");
 }
 
 .background-card__title {
@@ -364,7 +364,7 @@ body {
     color: #ffffff;
 
     background-color: #ee3643;
-    background-image: url("img/red-button.svg");
+    background-image: url("../img/red-button.svg");
     background-position: 0 0;
     background-repeat: no-repeat;
 }
@@ -463,15 +463,15 @@ body {
 }
 
 .services.services--delivery {
-    background-image: url("img/delivery.png");
+    background-image: url("../img/delivery.png");
 }
 
 .services.services--guarantee {
-    background-image: url("img/guarantee.png");
+    background-image: url("../img/guarantee.png");
 }
 
 .services.services--credit {
-    background-image: url("img/credit.png");
+    background-image: url("../img/credit.png");
 }
 
 .services__title {
