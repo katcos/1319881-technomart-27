@@ -1,3 +1,57 @@
+@font-face {
+    font-family: 'PT Sans';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/ptsans/ptsans.woff') format('woff'),
+         url('../fonts/ptsans/ptsans.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/ptsans/ptsansbold.woff') format('woff'),
+         url('../fonts/ptsans/ptsansbold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Cuprum';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/cuprum/cuprum.woff') format('woff'),
+         url('../fonts/cuprum/cuprum.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Cuprum';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/cuprum/cuprumbold.woff') format('woff'),
+         url('../fonts/cuprum/cuprumbold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Cuprum';
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+    src: url('../fonts/cuprum/cuprumitalic.woff') format('woff'),
+         url('../fonts/cuprum/cuprumitalic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Cuprum';
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+    src: url('../fonts/cuprum/cuprumbolditalic.woff') format('woff'),
+         url('../fonts/cuprum/cuprumbolditalic.woff2') format('woff2');
+}
+
 body {
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 13px;
@@ -20,7 +74,7 @@ body {
 }
 
 .page-header {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", Arial, sans-serif;
 }
 
 .page-header__top {
@@ -31,12 +85,13 @@ body {
 
 .logo {
     display: inline-block;
+    vertical-align: middle;
     padding: 10px 55px 5px;
 
     text-decoration: none;
 
     background-color: #ee3643;
-    box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+    box-shadow: 0 5px 0 0 #b52933;
 }
 
 .logo:hover {
@@ -48,6 +103,7 @@ body {
 }
 
 .logo img {
+    display: block;
     width: 109px;
     height: 19px;
 }
@@ -143,7 +199,7 @@ body {
 }
 
 .button {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", Arial, sans-serif;
     font-size: 14px;
     line-height: 18px;
     text-decoration: none;
@@ -200,7 +256,7 @@ body {
 }
 
 .promo-list {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", Arial, sans-serif;
 
     list-style: none;
 }
@@ -265,7 +321,7 @@ body {
 }
 
 .catalog-slider {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", Arial, sans-serif;
 
     list-style: none;
 }
@@ -311,14 +367,14 @@ body {
 }
 
 .section__header {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", Arial, sans-serif;
 
     background-color: #f9f5f0;
 
 }
 
 .section__title {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", Arial, sans-serif;
     font-size: 30px;
     line-height: 30px;
     font-weight: normal;
@@ -431,7 +487,7 @@ body {
 }
 
 .services-slider-nav__link {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", Arial, sans-serif;
     font-size: 21px;
     line-height: 30px;
     color: #ffffff;
@@ -475,7 +531,7 @@ body {
 }
 
 .services__title {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", Arial, sans-serif;
     font-weight: normal;
     font-size: 36px;
     line-height: 36px;
@@ -484,7 +540,7 @@ body {
 }
 
 .accent-list {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", Arial, sans-serif;
     font-size: 18px;
 
     list-style: none;
@@ -510,7 +566,7 @@ body {
 }
 
 .page-footer {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum", Arial, sans-serif;
     color: #ffffff;
 }
 
@@ -574,15 +630,16 @@ body {
     list-style: none;
 }
 
-.button.button--social {
+.social-button {
     color: #ffffff;
+    text-decoration: none;
 
     background-color: #212a3a;
     border-radius: 50%;
 }
 
-.button.button--social:hover,
-.button.button--social:focus {
+.social-button:hover,
+.social-button:focus {
     background-color: #ee3643;
 }
 
