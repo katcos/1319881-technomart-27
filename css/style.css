@@ -132,6 +132,7 @@ body {
 
 .page-header__product-toolbar .bookmark,
 .page-header__product-toolbar .basket,
+.page-header__product-toolbar .basket.basket--filled,
 .page-header__product-toolbar .order {
     font-size: 17px;
     line-height: 18px;
@@ -139,13 +140,19 @@ body {
     text-decoration: none;
 }
 
+.page-header__product-toolbar .basket.basket--filled {
+    background-color: #ee3643;
+}
+
 .page-header__product-toolbar .bookmark:hover,
-.page-header__product-toolbar .basket:hover {
+.page-header__product-toolbar .basket:hover,
+.page-header__product-toolbar .basket.basket--filled:hover {
     background-color: #212a3a;
 }
 
 .page-header__product-toolbar .bookmark:active,
-.page-header__product-toolbar .basket:active {
+.page-header__product-toolbar .basket:active,
+.page-header__product-toolbar .basket.basket--filled:active {
     color: rgba(255, 255, 255, 0.6);
 
     background-color: #161d29;
@@ -194,6 +201,10 @@ body {
     border: solid 3px #ffffff;
 }
 
+.page-header__phone.page-header__phone--bright {
+    color: #e9292a;
+}
+
 .user-block {
     list-style: none;
 }
@@ -209,7 +220,8 @@ body {
 }
 
 .button.button--user-login,
-.button.button--user-reg {
+.button.button--user-reg,
+.button.button--user-profile {
     font-size: 21px;
     line-height: 21px;
     color: #000000;
@@ -224,8 +236,27 @@ body {
 }
 
 .button.button--user-login:active,
-.button.button--user-reg:active {
+.button.button--user-reg:active,
+.button.button--user-profile:active {
     color: rgba(0, 0, 0, 0.3);
+}
+
+.link {
+    font-size: 16px;
+    line-height: 18px;
+    color: #32425c;
+}
+
+.link:hover {
+    color: #ee3643;
+}
+
+.link:active {
+    color: rgba(50, 66, 92, 0.3);
+}
+
+.link.link--underline {
+    text-decoration: underline;
 }
 
 .page-nav {
@@ -253,6 +284,30 @@ body {
     color: rgba(255, 255, 255, 0.5);
 
     background-color: #1d2739;
+}
+
+.breadcrumbs {
+    list-style: none;
+}
+
+.breadcrumbs__item,
+.breadcrumbs__item a {
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.page-title {
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #32425c;
+    text-transform: uppercase;
+
+    background-color: #f2f6f8;
 }
 
 .promo-list {
@@ -658,4 +713,115 @@ body {
 .page-footer__developer a:active {
     color: #ee3643;
     text-decoration: none;
+}
+
+.catalog-filter__title,
+.catalog-sorter__title {
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+
+    background-color: #f7f3ec;
+    border-radius: 1px;
+}
+
+.filter-form fieldset {
+    border: 0;
+}
+
+.filter-form fieldset:not(:last-of-type) {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.filter-form legend {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.filter-form__price-values input {
+    font-size: 17px;
+    line-height: 18px;
+
+    background-color: #f7f3ec;
+    border: 0;
+    border-radius: 1px;
+}
+
+.filter-form__fields {
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+
+    list-style: none;
+}
+
+.button.button--white {
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    text-transform: uppercase;
+
+    background-color: #ffffff;
+    border: solid 1px #e5e5e5;
+    border-radius: 1px;
+}
+
+.button.button--white:hover {
+    border: solid 1px #bdc6ca;
+}
+
+.button.button--white:active {
+    border: solid 1px #ee3643;
+}
+
+.pagination {
+    list-style: none;
+}
+
+.pagination__item.pagination__item--active .button {
+    color: #ffffff;
+
+    background-color: #ee3643;
+    border: solid 1px #ee3643;
+}
+
+.catalog-sorter {
+    font-size: 13px;
+    line-height: 18px;
+
+    background-color: #f7f3ec;
+    border-radius: 1px;
+}
+
+.catalog-sorter__list {
+    list-style: none;
+}
+
+.catalog-sorter__link {
+    color: rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.catalog-sorter__link:hover {
+    color: #000000;
+}
+
+.catalog-sorter__list.catalog-sorter__list--by .catalog-sorter__link {
+    border-bottom: 1px dotted #ee3643;
+}
+
+.catalog-sorter__list.catalog-sorter__list--by .catalog-sorter__link:hover {
+    border-bottom-style: solid;
+}
+
+.catalog-sorter__link:active,
+.catalog-sorter__link.catalog-sorter__link--active,
+.catalog-sorter__list.catalog-sorter__list--by .catalog-sorter__link:active,
+.catalog-sorter__list.catalog-sorter__list--by .catalog-sorter__link.catalog-sorter__link--active {
+    color: #ee3643;
+
+    border-bottom: 0;
 }
